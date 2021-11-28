@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feng Qilong</title>
+    <link rel="icon" href="./signature.ico" type="image/x-icon">   
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Playball&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid">
+        <div class="background">
+        </div>
+        <div class="signature">
+            <img src="assets/images/signature.png" alt="" />
+        </div>
+        <div class="linkedin">
+            <a href="https://www.linkedin.com/in/feng-qilong-b8a39220a"><img src="assets/images/linkedin.png" alt=""/></a>
+        </div>
+        <div class="github">
+            <a href="https://github.com/fengql123"><img src="assets/images/github.png" alt="" /></a>
+        </div>
+        <div class="gmail">
+            <a href="mailto: fengqilong293@gmail.com" target="_blank"><img src="assets/images/gmail.png" alt=""/></a>
+        </div>
+        <div class="myphoto">
+            <img id="photo" src="assets/images/clown.jpg" alt="" />
+            <script>
+                let img = document.getElementById("photo")
+                let rotateR = 0
+                img.addEventListener('mouseover', ()=>{
+                    rotateR += 360 * 10
+                    img.style.transition = 'transform 50s'
+                    img.style.transform = `rotate(${rotateR}deg)`
+                })
+                img.addEventListener('mouseout', ()=>{
+                    rotate = 360
+                    img.style.transition = 'transform 3s'
+                    img.style.transform = `rotate(${rotate}deg)`
+
+                })
+            </script>
+           
+        </div>
+        <div class="aboutme">
+            <p>Hi Friends,</p>
+        </div>
+        <div class="intro">
+            <p>I’m Qilong, I was an army boy(Singapore National Service), now teaching myself how to code, and soon a Computer Science Student at NTU. 
+            </p>
+        </div>
+        <div class="skillstack">
+            <p>Skill Stack</p>
+        </div>
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="assets/images/python.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/js.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/database.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/html-5.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/css.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/excel.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/react.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="assets/images/django.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer">
+            <p>       Click <span><a>here</a></span> to view my proper resume :)</p>
+        </div>
+        <div class="contact">
+            <p>contact: +(65) 93528695<p><p>email: fengqilong293@gmail.com </p>
+        </div>
+    </div>    
+</body>
+</html>
